@@ -1,0 +1,56 @@
+    <p>a)Na tag < input > com atributo type="text", para que serve o atributo "placeholder"?</p>
+    <p>Resposta: O atributo "placeholder" sinaliza o tipo de informação em texto irá ser inserido</p>
+    <p>b)Na tag < input > com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"?</p>
+    <p>Resposta: O atributo checked determina qual das "checkbox" deverá estar pré-selecionado quando a página abrir</p>
+    <p>c)Na tag < input > para que serve o atributo "value"?</p>
+    <p>Resposta: O atributo value dirá o que estará pré-escrito no espaço de input</p>
+    <p>d)Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?</p>
+    <p>Resposta: "input type"</p>
+    <p>e)Para que serve a tag "label"? Para que serve o atributo "for" nessa tag?</p>
+    <p>Resposta: A tag "label" em HTML é usada para associar um rótulo descritivo a um elemento de formulário, como um campo de entrada como "input" ou um botão.</p>
+    <p>f)Na tag "option" para que serve o atributo "selected"?</p>
+    <p>Resposta: Na tagem HTML, o atributo "selected" serve para especificar qual opção de seleção deve ser predefinida (ou seja, selecionada) quando a lista suspensa (ou menu suspenso) correspondente for exibida pela primeira vez na página. <br>Isso permite que você defina qual opção deve ser exibida como o valor padrão quando o usuário abrir o menu suspenso.</p>
+    <p>g)Nas tags de formulário para que serve o atributo "required"?</p>
+    <p>Resposta: Esse é um atributo booleano usado para indicar que um determinando campo de formulário é obrigatório para o envio do mesmo.</p>
+    <p>h)Para que serve a tag < textarea >?</p>
+    <p>Resposta: O elemento define um campo de entrada de várias linhas (uma área de texto).</p>
+    <p>i)Na tag < form > para que serve o atributo "action"?</p>
+    <p>Resposta: O atributo define a ação a ser executada quando o formulário é enviado. <br>Normalmente, os dados do formulário são enviados para um arquivo no servidor quando o usuário clica no botão enviar.</p>
+    <p>j)Na tag < form > para que serve o atributo "method"? </p>
+    <p>Resposta: Na tag < form > para que serve o atributo "method"? </p>
+    <p>k)Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, <br>qual deve ser o valor do atributo "method" na tag < form >?</p>
+    <p>Resposta: get, post, indica para onde vai ser enviada os dados do formulário</p>
+    <p>l)Qual valor deve ser informado no atributo "method" na tag < form > em um formulário que será usado para fazer upload de arquivos?</p>
+    <p>Resposta: "POST"</p>
+    <p>m)O que as tags < fieldset > e < legend > produzem?</p>
+    <p>Resposta:  Agrupamento e Organização dos campos de um Formulário</p>
+
+
+
+
+<!DOCTYPE html
+> <html lang="pt-br">
+     <head> <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+ </head> 
+ <body> Nome: <input type="text"> <br>
+        Data de nascimento: <input type="text"> <br>
+        Sexo:
+        Masculino <input type="radio" name="" id="">
+        Feminino <input type="radio" name=" id="><br>
+        Endereço: <input type="text"><br> 
+        Logradouro: <input type="text"><br>
+        Bairro: <input type="text"> <br> 
+        Cidade: <input type="text"> <br>
+        Estado: <select name="DF">
+        <option value="em">DF</option>
+        <option value="nt">SP </option>
+        <option value="ns">RJ</option> 
+</sele ct> <br> 
+Email:<input type=""> <br>
+ <input type="button" value="Limpar"> 
+ <input type="button" value="Enviar"> 
+</body
+> </html
